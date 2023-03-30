@@ -4,6 +4,8 @@ import be.technifutur.AbstractFactory.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TestBuilder {
@@ -11,8 +13,22 @@ public class TestBuilder {
     public static void main(String[] args) {
         FabriqueAbstraite factory = FabriqueAbstraite.getFactory("Chateau");
         ElementLabyrinthe[][] labyrinthe = TestFabrique.getLabyrinthe(factory);
-        StringLabyrintheBuider buider = new StringLabyrintheBuider();
+
+        /*StringLabyrintheBuider buider = new StringLabyrintheBuider();
         makeFromArrays(buider, labyrinthe);
+        System.out.println(buider.build());*/
+
+        ArrayLabyrintheBuilder arrayBuilder = new ArrayLabyrintheBuilder(factory);
+        makeFromFile(arrayBuilder, "labyrinthe.txt");
+        ElementLabyrinthe[][] laby = arrayBuilder.build();
+
+        Arrays.stream(laby)
+                .flatMap(Arrays::stream)
+                .map(ElementLabyrinthe::desciption)
+                .forEach(System.out::println);
+
+        StringLabyrintheBuider buider = new StringLabyrintheBuider();
+        makeFromArrays(buider, laby);
         System.out.println(buider.build());
     }
 
@@ -40,7 +56,7 @@ public class TestBuilder {
     }
 
     public static void makeFromArrays(LabyrintheBuilder builder, ElementLabyrinthe[][] laby){
-
+        builder.start();
         for (int lig = 0; lig < laby.length ; lig++) {
             for (int col = 0; col < laby[lig].length; col++) {
                 if(laby[lig][col] instanceof Piece){
