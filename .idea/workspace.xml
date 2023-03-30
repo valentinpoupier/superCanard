@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f59307e-0553-41c9-8247-404bb94f1668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chasseur/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chasseur/Chasseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chasseur/Idiot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chasseur/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/Canard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/CanardAvecSymbole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/CanardAvecVague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/CanardEnPlastique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/CanardStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/CanardVibrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/Colvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/Leurre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Canard/Mandarin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementcancan/Alternatif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementcancan/Bebegailler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementcancan/CanardMuet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementcancan/Cancan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementcancan/Coincoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementcancan/ComportementCancan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementvol/ComportementVol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementvol/NePasVoler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supercannard/comportementvol/VolerAvecDesAiles.java" afterDir="false" />
+    <list default="true" id="3f59307e-0553-41c9-8247-404bb94f1668" name="Changes" comment="up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractFactory/builder/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory/builder/TestBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFabrique">
+  <component name="RunManager" selected="Application.be.technifutur.builder.TestBuilder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="supercannard.Main" />
       <module name="superCanard" />
@@ -93,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDecorateur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="supercannard.Canard.TestDecorateur" />
+    <configuration name="TestBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractFactory.builder.TestBuilder" />
       <module name="superCanard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="supercannard.Canard.*" />
+          <option name="PATTERN" value="AbstractFactory.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chasseur.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chasseur.Main" />
+    <configuration name="be.technifutur.AbstractFactory.TestFabrique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.technifutur.AbstractFactory.TestFabrique" />
       <module name="superCanard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chasseur.*" />
+          <option name="PATTERN" value="be.technifutur.AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="be.technifutur.builder.TestBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.technifutur.builder.TestBuilder" />
+      <module name="superCanard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.technifutur.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.be.technifutur.builder.TestBuilder" />
+        <item itemvalue="Application.be.technifutur.AbstractFactory.TestFabrique" />
+        <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.TestFabrique" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestDecorateur" />
-        <item itemvalue="Application.chasseur.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +134,25 @@
       <option name="presentableId" value="Default" />
       <updated>1678870154200</updated>
     </task>
+    <task id="LOCAL-00001" summary="up">
+      <created>1680179546588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680179546588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="up">
+      <created>1680179566679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680179566679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
 </project>
